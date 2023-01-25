@@ -1,0 +1,69 @@
+
+
+.father{
+    margin: 0;
+    width: 100vh;
+    height: 600px;
+    /*background: silver;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+
+}
+
+.box1 {
+    width: 100vh;
+    height: 20%;
+    background: silver;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    position: relative;
+
+}
+.box2{
+    width: 100vh;
+    height: 55%;
+    background: black;
+
+}
+
+.box3{
+    width: 100vh;
+    height: 30%;
+    background: silver;
+}
+.boxes {
+    width: 150px;
+    height: 50px;
+    background: black;
+    border-radius: 10px;
+    position: absolute;
+    left: 100px;
+    top: 15px;
+
+}
+.icons{
+    margin-right: 100px;
+
+
+}
+.main{
+    bottom: 100px;
+    left: 30%;
+    background: #000;
+    position: absolute;
+    display: flex;
+   column-gap: 20px;
+}
+
+
+
+.boxe{
+    width: 100px;
+    height: 100px;
+    /*position: absolute;*/
+    background: blue;
+    border-radius: 10px;
+}
