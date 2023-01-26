@@ -1,14 +1,13 @@
 
-
-.father{
+.father {
     margin: 0;
     width: 100vh;
     height: 600px;
-    /*background: silver;*/
+
     display: flex;
     flex-direction: column;
     justify-content: center;
-    position: relative;
+
 
 }
 
@@ -22,18 +21,15 @@
     position: relative;
 
 }
-.box2{
+
+.box2 {
     width: 100vh;
     height: 55%;
     background: black;
 
 }
 
-.box3{
-    width: 100vh;
-    height: 30%;
-    background: silver;
-}
+
 .boxes {
     width: 150px;
     height: 50px;
@@ -45,20 +41,19 @@
 
 }
 
-.icons{
+.icons {
     margin-right: 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 
 
-
 }
-.main{
-    /*bottom: 100px;*/
-    /*left: 30%;*/
-    /*background: #000;*/
-    /*position: absolute;*/
+
+.main {
+    width: 100vh;
+    height: 30%;
+    background: silver;
     display: flex;
     justify-content: center;
     column-gap: 20px;
@@ -66,12 +61,11 @@
 }
 
 
-
-.boxe{
+.boxe {
     width: 100px;
     height: 100px;
     background: #5454e8;
     border-radius: 10px;
     position: relative;
-    top: -190px;
+    top: -50px;
 }
