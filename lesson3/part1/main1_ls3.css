@@ -41,21 +41,28 @@
     border-radius: 10px;
     position: absolute;
     left: 100px;
-    top: 15px;
+    top: 20px;
 
 }
+
 .icons{
     margin-right: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
 
 
 }
 .main{
-    bottom: 100px;
-    left: 30%;
-    background: #000;
-    position: absolute;
+    /*bottom: 100px;*/
+    /*left: 30%;*/
+    /*background: #000;*/
+    /*position: absolute;*/
     display: flex;
-   column-gap: 20px;
+    justify-content: center;
+    column-gap: 20px;
+    position: relative;
 }
 
 
@@ -63,7 +70,8 @@
 .boxe{
     width: 100px;
     height: 100px;
-    /*position: absolute;*/
-    background: blue;
+    background: #5454e8;
     border-radius: 10px;
+    position: relative;
+    top: -190px;
 }
