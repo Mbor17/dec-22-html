@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.target {
+    width: 100%;
+    height: 600px;
+    background: white;
+    /*border: 2px solid black;*/
+    /*border-radius: 5px;*/
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+
+.boxes1 {
+  margin: 5px;
+    width: 98%;
+    height: 33%;
+    background: silver;
+    border: 2px solid silver;
+    border-radius: 3px;
+    display: flex;
+    /*flex-wrap: wrap;*/
+    justify-content: center;
+    align-items: center;
+
+}
+
+.boxes2 {
+    margin-right: 5px;
+    width: 67%;
+    height: 33%;
+    background: silver;
+    border: 2px solid silver;
+    border-radius: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+.main {
+
+    margin: 5px;
+    width: 68%;
+    height: 66%;
+
+    box-sizing: border-box;
+    display: flex;
+    /*flex-wrap: wrap;*/
+    justify-content: center;
+
+}
+
+.main1 {
+    width: 100%;
+    height: 66%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.box1, .box2, .box3 {
+    margin-right: 5px;
+    width: 32%;
+    height: 66%;
+    background: silver;
+    border: 2px solid silver;
+    border-radius: 3px;
+    /*box-sizing: border-box;*/
+    display: flex;
+    /*flex-wrap: wrap;*/
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 220px;
+}
+
+.boxes4 {
+    margin: 5px;
+    width: 29%;
+    height: 66%;
+    background: silver;
+    border: 2px solid silver;
+    border-radius: 3px;
+    box-sizing: border-box;
+    display: flex;
+    /*flex-wrap: wrap;*/
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    .boxes1 {
+        width: 100%;
+        height: 25%;
+    }
+
+    .boxes2 {
+        width: 100%;
+        height: 25%;
+
+    }
+
+    .main1 {
+        width: 100%;
+
+    }
+
+    .box1, .box2, .box3 {
+        top: 170px;
+
+    }
+
+    .boxes4 {
+
+        width: 100%;
+        height: 20%;
+        top: 550px;
+        position: absolute;
+
+    }
+
+}
